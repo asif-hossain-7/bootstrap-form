@@ -1,0 +1,124 @@
+/* ----------------------
+GOOGLE FONT 
+---------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+/* ----------------------
+GLOBAL SETTINGS 
+---------------------- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+}
+
+
+/* ----------------------
+CONTACT FORM SECTION 
+---------------------- */
+body {
+    /* padding: 100px 0; */
+    background: url(../images/contact-bg.jpg) center center no-repeat;
+    background-size: cover;
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.registration-form {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 40px 30px;
+    border-radius: 7px;
+}
+
+form input[type="date"],
+select,
+textarea {
+    font-family: "Poppins", sans-serif;
+}
+
+form input[type="date"],
+select {
+    padding: 15px 12px !important;
+}
+
+form input[type="date"] {
+    color: #ffffff !important;
+}
+
+
+.form-control {
+    color: #ffffff;
+}
+
+form label {
+    background: transparent I !important;
+}
+
+form input,
+select,
+textarea {
+    background: transparent !important;
+    border-color: #ffb400 !important;
+}
+
+.form-control:focus,
+select:focus {
+    color: #ffffff;
+    border-color: #FE920B;
+    outline: 0;
+    box-shadow: 0px 0px 3px 2px #ffb400 !important;
+}
+
+.form-floating>.form-control:focus~label {
+    color: #ffffff;
+}
+
+.form-floating>.form-control:focus~label::after {
+    background-color: transparent;
+}
+
+.form-floating>.form-control:not(:placeholder-shown)~label::after {
+    background-color: transparent !important;
+}
+
+.form-floating>.form-control:not(:placeholder-shown)~label {
+    color: #ffffff !important;
+}
+
+select,
+textarea {
+    background: transparent !important;
+    color: #ffffff !important;
+}
+
+.form-select option {
+    background-color: #584909 !important;
+}
+
+.submit-button {
+    padding: 10px 40px;
+    color: #ffffff;
+    background-color: #FE920B;
+    transition-duration: .4s;
+}
+
+.submit-button:hover {
+    background-color: #ffb400;
+}
